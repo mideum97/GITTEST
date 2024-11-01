@@ -38,3 +38,18 @@ git status #상태 확인
 git log # 로그 확인
 ```
 
+## Local Git to GITHUB
+- Github에서 저장소 생성
+- 저장소 주소
+    https://github.com/mideum97/GITTEST.git
+
+- 원격지 등록
+```bash
+git remote add origin https://github.com/mideum97/GITTEST.git
+# git remote add 저장소이름 저장소주소
+```
+-Push
+```bash
+git push -u origin master #첫번째 푸쉬
+git push # 기본원격지 현재브랜치를 푸쉬
+```
